@@ -1,0 +1,386 @@
+<html>
+  <head>
+    <title>OPEN Template</title>
+    <link rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+  </head>
+
+  <body>
+   
+      <div style="background-image: url('assets/images/circle.svg');">
+       
+    <section id="nav-bar">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="assets/images/logoz.png"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+         
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="collapse navbar-collapse justify-content-end">
+           
+              <a class="nav-link" href="#" style="color:rgb(2, 2, 14);"><b>Products</b></a>
+           
+              <a class="nav-link" href="#" style="color:rgb(2, 2, 14);"><b>Solution</b></a>
+           
+              <a class="nav-link" href="#" style="color:rgb(2, 2, 14);"><b>Pricing</b></a>
+
+              <ul><a class="nav-link" href="#" style="color:rgb(131, 28, 109);">Login</a></ul>
+             
+              <a><a class="nav-link" href="#">Get Started</a></a>
+
+            </div>
+          </div>
+      
+     
+            
+             
+            
+           
+         
+            </div>
+
+            </nav>
+
+
+    </section>
+
+    <!---------------------------banner section--------->
+
+    <section id="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+       <ul><p style="font-size:30px"><b>We make it Super</b></p>
+        <p style="font-size:30px"><b>Simple</b></p>
+        <p style="font-size:30px"><b>_________</b></p></ul>
+        <b class="navbar-brands" href="#"><img src="assets/images/collect.png"></b>
+          </div>
+       
+          <div class="col-md-4">
+           <li>
+            <div class="cards">
+              <div class="d-flex flex-row justify content-center flex wrap">
+                <div class="card1" id="cd">
+                  <div class="card-body">
+                  <b>  <p class="card-text1">
+                   Eligibily Calculator
+                    </p></b>
+                    <a><p class="card-text2">
+                      Monthly Income
+                       </p></a>
+                    <p class="card-text3">
+                      ₹ {{a}}
+                   </p>
+                   
+                  
+                   <p class="card-text4">
+                   <input type="range" style="width: 300px;"  min="100000" max="300000"  (change)="Change($event.target.value)">
+                   </p>
+                   <a><p style="word-spacing: 210px">
+                    100000                                                                                                    300000
+                 </p></a>
+                   <a><p class="card-text5">
+                    Monthly Expense
+                     </p></a>
+                  <p class="card-text6">
+                    ₹ {{b}}
+                 </p>
+                 <p class="slidecontainer">
+                 <input type="range" style="width: 300px;" min="100000" max="300000"  (change)="Changes($event.target.value)">
+                 </p>
+                <a><p class="card-text8">
+                  Repayment Tenure
+                   </p></a>
+                   <p>
+                    <select name="select" class="text-line">
+                      <option selected>6 Months</option>
+                      <option>4 Months</option>
+                      <option>2 Months</option>
+                  </select>
+                   </p>
+                  <a><p>Do you have any existing loans?      
+                    <label class="switch">
+                      <input type="checkbox" checked>
+                      <span class="slider round"></span>
+                    </label>
+                   </p></a>
+                  <a><p class="card-text8">
+                    EMI of existing loans(optional)
+                     </p></a>
+                     <p><input type="text" class="text-line" ></p>
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+               </div>
+
+          <div class="col-md-2">
+            <a>
+           <div class="cards">
+             <div class="d-flex flex-row justify content-center flex wrap">
+             
+               <div class="card" id="loanam" style="background-color:rgb(139, 60, 175);">
+                 <div class="card-body">
+                   <p class="card-text1" style="color:rgb(239, 239, 247);">
+                   Loan Amount
+                   </p>
+                   <p class="card-text2"  style="color:rgb(239, 239, 247);"><b>
+                    ₹ 100000 </b>
+                  </p>
+                  <p class="card-text3" style="color:rgb(239, 239, 247);">
+                  Your EMI will be
+                  </p>
+                  <p class="card-text4" style="color:rgb(239, 239, 247);"><b>
+                    ₹ 15000</b>
+                   
+                  </p>
+                 
+                  <a href="#" class="nav-link"  id="getaccounts">Get Money</a>
+                 </div>
+               </div>
+             </div>
+           </div>
+          </a>
+         
+              </div>
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+     <!---------------------------bannerss section--------->
+    </div>
+    <div style="background-image: url('assets/images/wave.svg');">
+
+     <section id="bannerss">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <li>
+            <a href="#">
+            <div class="cards">
+              <div class="d-flex flex-row justify content-center flex wrap">
+                <div class="card" id="p">
+                  <div class="card-body">
+                   <a href="#" class="navbar-img1"><img src="assets/images/Get.png">
+                    <p style="color:rgb(2, 2, 14);" class="card-text1">
+                    <b>Quick cash disbursement</b>
+                    </p>
+                    <p class="card-text2">
+                     Get terms loans that your business needs
+                   </p>
+                   <p class="card-text3">
+                   within 72 hours
+                   </p></a>
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+            </a>
+          </li>
+          </div>
+
+          <div class="col-md-4">
+            <li>
+            <a href="#">
+           <div class="cards">
+             <div class="d-flex flex-row justify content-center flex wrap">
+               <div class="card" id="q">
+                 <div class="card-body">
+                  <a class="navbar-img2" href="#"><img src="assets/images/freel.png"></a>
+                   <p style="color:rgb(2, 2, 14);" class="card-text1">
+                  <b>Are you business finances</b>
+                   </p>
+                   <a><p class="card-text2">
+                    Manage banking,accounting & everthing
+                  </p>
+                  <p class="card-text3">
+                  in between,on one platform
+                  </p></a>
+                  
+                 </div>
+               </div>
+             </div>
+           </div>
+            </a>
+          </li>
+              </div>
+
+              <div class="col-md-4">
+              <li>
+                <p style="font-size:30px" class="card-text11">
+                Boost your business
+                </p>
+                <p style="font-size:30px" class="card-text12">
+                with Open
+               </p>
+               <p class="card-text13">
+               
+               </p>
+               <p style="font-size:30px" class="card-text14">
+                 _____
+               </p>
+               <a><p class="card-text2">
+                Get your hands on a term loan that's
+              </p>
+              <p class="card-text3">
+              crafted for your business.
+              </p></a>
+            </li>
+             
+             
+           </div>
+
+            
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+  <!---------------------------bannersss section--------->
+  
+  <section id="bannersss">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <li>
+          <a href="#">
+          <div class="cards">
+            <div class="d-flex flex-row justify content-center flex wrap">
+              <div class="card" id="r">
+                <div class="card-body">
+                 <a class="navbar-img3" href="#"><img src="assets/images/Low.png"></a>
+                 <p style="color:rgb(2, 2, 14);" class="card-text1">
+                <b>Low-interest rate</b>
+                  </p>
+                  <a><p class="card-text2">
+                  Achieve your financial goals with an
+                  </p>
+                  <p class="card-text3">
+                  amazing interest rate starting at 13% per
+                 </p>
+                 <p class="card-text4">
+                annum
+                 </p></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+          </a>
+        </li>
+        </div>
+
+        <div class="col-md-4">
+          <li>
+          <a href="#">
+         <div class="cards">
+           <div class="d-flex flex-row justify content-center flex wrap">
+             <div class="card" id="s">
+               <div class="card-body">
+                <a class="navbar-img4" href="#"><img src="assets/images/Covid.png"></a>
+                <p style="color:rgb(2, 2, 14);" class="card-text1">
+                  <b>Loans to fight COVID-19</b>
+                  </p>
+                 <a><p class="card-text2">
+                Zero EMI for first 3 months on Back-to-
+                 </p>
+                 <p class="card-text3">
+                 Business loans upto 1 lakh
+                </p></a>
+                </div>
+             </div>
+           </div>
+         </div>
+          </a>
+        </li>
+            </div>
+
+            <div class="col-md-4">
+            
+              <ul><a class="nav-link" href="#" id="getaccount">Get an Open Account</a></ul>
+            
+           
+           
+         </div>
+
+          
+
+      </div>
+
+
+    </div>
+
+  </section>
+
+  <!---------------------------bannerssss section--------->
+
+  <section id="bannerssss">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <li>
+          <a href="#">
+          <div class="cards">
+            <div class="d-flex flex-row justify content-center flex wrap">
+              <div class="card" id="t">
+                <div class="card-body">
+                 <a class="navbar-img3" href="#"><img src="assets/images/Secure.png"></a>
+                  <p style="color:rgb(2, 2, 14);" class="card-text1">
+                 <b>Zero Paperwork</b>
+                  </p>
+                  <a><p class="card-text2">
+                  Get started instantly by submitting only
+                 </p>
+                 <p class="card-text3">
+                  your basic details and basic statements
+                 </p></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+          </a>
+        </li>
+        </div>
+
+       
+
+           
+
+          
+
+      </div>
+
+
+    </div>
+
+  </section>
+
+   </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
